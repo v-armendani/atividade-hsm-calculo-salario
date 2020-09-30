@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    	<meta charset=“utf-8”>
+    </head>
+
+    <body>
+
+        <script>
+
+        var salario = prompt("Digite o salário");
+        var planoA = (salario * 0.1) + salario;
+        var planoB = (salario * 0.15) + salario;
+        var planoC = (salario * 0.2) + salario;
+        var planoFunc = prompt("Digite em qual plano o funcionário de enquadra. A, B ou C?")
+
+        switch(planoFunc){
+            case "A":
+            document.write("O novo salário é R$ " + planoA);
+            break;
+            case "B":
+            document.write("O novo salário é R$ " + planoB);
+            break;
+            case "C":
+            document.write("O novo salário é R$ " + planoC);
+            break;
+        }
+
+        </script>
+
+    </body>
+
+</html>
